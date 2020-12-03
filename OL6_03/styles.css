@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    }
+    
+    
+#Container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       height: 100vh;
+    }
+    
+
+.firstclass{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+        width: 100%;
+    }
+ 
+.secondclass{
+        background-color: orangered;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-grow: 1;
+        width: 100%;
+    }
+   
+#smallpumpkin{
+        padding: 20px 0px 20px 0px;
+    }
+
+#bigpumpkin{
+    width: 100%;
+}
+    
+    
+@media(max-width: 500px)
+    {
+        #smallpumpkin{
+            display: none;
+        }
+
+        .secondclass{
+             padding: 20px 0px 0px 0px;
+        }
+    
+    }
+    
