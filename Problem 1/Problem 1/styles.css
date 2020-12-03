@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#wrapper{
+    height: 100vh;
+    background-color: #343d52;
+}
+
+#main{
+    display: flex;
+    height: 300px;
+    background-color: #343d52;
+}
+
+#header{
+    background-color: #343d52;
+    border-top: 10px solid #858b97;
+    border-bottom: 10px solid #858b97;
+    margin: 0;
+    color: white;
+    height: 80px;
+}
+
+#history{
+    background-color: #343d52;
+    overflow-y: auto;
+    border-left: 10px solid #858b97;
+    border-right: 10px solid #858b97;
+    flex-basis: 0;
+    flex-grow: 1;
+    color: white;
+    padding: 15px;
+}
+
+
+#dogs{
+    display: flex;
+    flex-direction: column;
+    background-color: #5d6475;
+}
+
+#image{
+    background-image: url(togo.jpg);
+    background-size: cover;
+    flex-basis: 150px;
+}
+
+#footer{
+    display: flex;
+    background-color: #5d6475;
+    border-top: 10px solid #858b97;
+    height: 80px;
+    border-bottom: 10px solid #343d52;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 42px;
+    font-family: 'Patrick Hand';
+    margin: 0;
+}
+
+p{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 5px;
+}
+
+a{
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    flex-grow: 1;
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+    background-color: #858b97;
+}
+
+img{
+    height: 300px;
+}
