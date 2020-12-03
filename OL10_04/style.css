@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrapper{
+    display: flex;
+    background-color: gray;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#tvacirklar{
+    display: flex;
+}
+
+#rullare{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 2s ease;
+}
+
+#rullare{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.cirkel{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 200px;
+    background-color: white;
+    margin: 10px;
+}
+
+.ett{
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tva{
+    background: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > div > div:first-child:active ~ div:nth-child(3){
+    transform: rotate(45deg);
+}
+
+body > div > div:nth-child(2):active ~ div:nth-child(3){
+    transform: rotate(-45deg);
+}
